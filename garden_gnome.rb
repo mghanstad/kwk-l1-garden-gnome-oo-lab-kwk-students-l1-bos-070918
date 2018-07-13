@@ -5,7 +5,7 @@ class GardenGnome
   
   def initialize(personality, hat_color = "red")
     @personality = "evil"
-    @hat_color = hat_color.new
+    @hat_color = hat_color
   end
   
   def gnaw
@@ -20,6 +20,3 @@ class GardenGnome
     "Hello humans, my name is #{name}, I am #{age}, and you'll rue the day you crossed me!"
   end
 end
-
-
-test = GardenGnome.new
